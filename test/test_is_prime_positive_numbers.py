@@ -1,5 +1,4 @@
 import unittest
-import sys
  
 from is_prime import is_prime
 
