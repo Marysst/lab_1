@@ -1,7 +1,6 @@
 import unittest
 import sys
-
-sys.path.append("..")  
+ 
 from is_prime import is_prime
 
 class TestIsPrime(unittest.TestCase):
