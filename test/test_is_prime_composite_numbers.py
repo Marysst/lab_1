@@ -1,7 +1,7 @@
 import unittest
 import sys
 
-sys.path.append("..")  
+sys.path.append("/lab_1") 
 from is_prime import is_prime
 
 class TestIsPrime(unittest.TestCase):
