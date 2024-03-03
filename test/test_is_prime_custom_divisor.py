@@ -11,7 +11,7 @@ class TestIsPrime(unittest.TestCase):
         self.assertTrue(is_prime(17, 5))
         self.assertFalse(is_prime(18, 5))
         self.assertTrue(is_prime(23, 7))
-        self.assertFalse(is_prime(54, 6)
+        self.assertFalse(is_prime(54, 6))
 
 if __name__ == '__main__':
     unittest.main()
