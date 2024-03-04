@@ -1,10 +1,10 @@
 import unittest
-import os
 import sys
+import os
 
-parent_dir = os.path.abspath(os.path.join(os.path.dirname(file), os.pardir))
-
-sys.path.insert(0, parent_dir)
+current_dir = os.path.dirname(os.path.abspath(file))
+root_dir = os.path.dirname(current_dir)
+sys.path.append(root_dir)
  
 from is_prime import is_prime
 
